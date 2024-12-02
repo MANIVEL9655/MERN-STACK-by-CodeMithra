@@ -1,0 +1,34 @@
+!<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JavaScript 1</title>
+</head>
+<body>
+    <h1 id="heading"></h1>
+
+    <h2 id="head"></h2>
+    <button onclick="changeContent()">Change Content</button>
+
+    <button onclick="change()">Change Content</button>
+    <script>
+
+        let h1= document.getElementById("heading");
+        let h2=document.getElementById("head")
+        console.log(h1);
+        console.log(h2);
+        h1.innerHTML = "I am added by js";
+        h2.innerHTML = "I am h2";
+
+        function changeContent(){
+            h1.innerHTML = "I am text changed by Js";
+        }
+        function change(){
+            h2.innerHTML =  "I am text changed h2";
+        }
+
+
+    </script>
+</body>
+</html>
