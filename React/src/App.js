@@ -3,15 +3,17 @@ import './App.css';
 import React from "react";
 
 function App() {
+    const name = "manivel"
   return (
       <div className="App">
         <header className="App-header">
           <img src={logo} className="App-logo" alt="logo"/>
+
           <p>
             Edit <code>src/App.js</code> and save to reload.
 
           </p>
-          <a
+           <a
               className="App-link"
               href="https://reactjs.org"
               target="_blank"
@@ -19,6 +21,7 @@ function App() {
           >
             Learn React
           </a>
+            <p>{name}</p>
         </header>
       </div>
   );
