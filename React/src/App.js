@@ -3,28 +3,17 @@ import './App.css';
 import React from "react";
 
 function App() {
-    const name = "manivel"
-  return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo"/>
-
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-
-          </p>
-           <a
-              className="App-link"
-              href="https://reactjs.org"
-              target="_blank"
-              rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-            <p>{name}</p>
-        </header>
-      </div>
-  );
+    function handleNameChange() {
+        const names=["Earn","Give","spend","Never"]
+        const int = Math.floor(Math.random() * 4);
+        return names[int];
+    }
+    // const name = "manivel"
+    return (
+        <div>
+            Subscribe to Dhuddu
+            <p>Lets {handleNameChange()} Money </p>
+        </div>
+    );
 }
-
 export default App;
