@@ -1,0 +1,34 @@
+p{
+color: blue;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: 300;
+font-size: 100%;
+font-weight: bold;
+padding-left: 0cqm;
+}
+#csstype{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(89, 0, 255);
+}
+.King{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: rgb(201, 231, 3);
+}
+h1.King{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgb(144, 84, 84);
+    opacity: 50%;
+}
+*{
+    font-style: italic;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1,p{
+    font-style: italic;
+    color: greenyellow;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
