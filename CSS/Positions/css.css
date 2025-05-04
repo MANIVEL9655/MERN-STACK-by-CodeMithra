@@ -5,6 +5,22 @@ font-weight: 300;
 font-size: 100%;
 font-weight: bold;
 padding-left: 0cqm;
+/* border-style:inset dashed dotted ;
+/* border-width:5px 2px 15px 10px; */
+/* border-width: thick;
+border-color: rosybrown yellow green brown;
+border-radius: 10px 0px 10px 5px; */
+/* border: solid medium red; */
+/* background-color: black; */
+/* background-image: url("Screenshot 2024-12-15 213011.png");
+background-repeat:no-repeat;
+background-position: center;
+background-attachment: scroll; */
+
+}
+body{
+    /* background:url("Screenshot 2024-12-15 213011.png") no-repeat scroll  */
+
 }
 #csstype{
     font-family: 'Times New Roman', Times, serif;
@@ -27,8 +43,16 @@ h1.King{
     font-style: italic;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-h1,p{
+h1{
     font-style: italic;
     color: greenyellow;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
+    /* margin-top: 20;
+    margin-bottom: 20;
+    margin-left: 20px;
+    margin-left: 20; */
+    margin-left: 10;
+    border: 2px solid;
+    border-left: 100;
+    padding: 10px ;
+    padding-left: 50;
