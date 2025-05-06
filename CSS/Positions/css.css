@@ -1,60 +1,8 @@
-p{
-color: blue;
-font-family: Georgia, 'Times New Roman', Times, serif;
-font-weight: 300;
-font-size: 100%;
-font-weight: bold;
-padding-left: 0cqm;
-/* border-style:inset dashed dotted ;
-/* border-width:5px 2px 15px 10px; */
-/* border-width: thick;
-border-color: rosybrown yellow green brown;
-border-radius: 10px 0px 10px 5px; */
-/* border: solid medium red; */
-/* background-color: black; */
-/* background-image: url("Screenshot 2024-12-15 213011.png");
-background-repeat:no-repeat;
-background-position: center;
-background-attachment: scroll; */
-
+#NN{
+    border: solid black;
+    background-color: #498282;
+    overflow: relative;
+    position: absolute;
+    display:block ;
+    visibility: hidden;
 }
-body{
-    /* background:url("Screenshot 2024-12-15 213011.png") no-repeat scroll  */
-
-}
-#csstype{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: rgb(89, 0, 255);
-}
-.King{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    color: rgb(201, 231, 3);
-}
-h1.King{
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: rgb(144, 84, 84);
-    opacity: 50%;
-}
-*{
-    font-style: italic;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-}
-h1{
-    font-style: italic;
-    color: greenyellow;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    /* margin-top: 20;
-    margin-bottom: 20;
-    margin-left: 20px;
-    margin-left: 20; */
-    margin-left: 10;
-    border: 2px solid;
-    border-left: 100;
-    padding: 10px ;
-    padding-left: 50;
-    width:auto;
-    height:auto;
